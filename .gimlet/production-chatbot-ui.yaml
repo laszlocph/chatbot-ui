@@ -15,3 +15,5 @@ values:
   replicas: 1
   resources:
     ignoreLimits: true
+  vars:
+    OPEN_AI_KEY: a3a0b0fbf2ce6719797f0913054b2934
