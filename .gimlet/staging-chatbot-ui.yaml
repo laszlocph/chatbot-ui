@@ -4,7 +4,7 @@ namespace: default
 chart:
   repository: https://chart.onechart.dev
   name: onechart
-  version: 0.60.0
+  version: 0.61.0
 values:
   containerPort: 3000
   gitRepository: laszlocph/chatbot-ui
