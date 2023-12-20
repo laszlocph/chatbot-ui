@@ -6,7 +6,7 @@ chart:
   name: onechart
   version: 0.63.0
 values:
-  containerPort: 80
+  containerPort: 3000
   gitRepository: laszlocph/chatbot-ui
   gitSha: '{{ .SHA }}'
   image:
