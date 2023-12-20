@@ -22,4 +22,4 @@ values:
       memory: 5Mi
     requests:
       cpu: 200m
-      memory: 200Mi
+      memory: 5Mi
