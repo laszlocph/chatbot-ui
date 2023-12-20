@@ -15,4 +15,11 @@ values:
     tag: '{{ .SHA }}'
   replicas: 1
   resources:
-    ignoreLimits: true
+    ignore: false
+    ignoreLimits: false
+    limits:
+      cpu: 200m
+      memory: 5Mi
+    requests:
+      cpu: 200m
+      memory: 200Mi
